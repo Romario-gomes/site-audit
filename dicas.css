@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background: #BBBBBB ;
+    background: #000000 ;
     padding: 20px;
 }
 
@@ -34,7 +34,7 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #000000;
+    color: #ffffff;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
@@ -98,12 +98,16 @@ nav a:hover {
 
 footer {
     text-align: center;
-    background: #CCCCCC;
+    background: #000000;
     padding: 45px 0;
 }
 
+.logo-audit-footer {
+    width: 10%;
+}
+
 .copyright {
-    color: #000000;
+    color: #ffffff;
     font: 15px;
     margin: 20px 0 0;
 }
