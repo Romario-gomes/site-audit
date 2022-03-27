@@ -1,4 +1,4 @@
-var answers = {}
+var answers = {};
 
 var question_one = document.getElementById('question-1');
 var question_two = document.getElementById('question-2');
@@ -6,7 +6,7 @@ var question_two = document.getElementById('question-2');
 function storeAnswer(question_number, event){
     if(event.target.type === 'radio'){
         console.log(event.target.value);
-        answers['quetion'+question_number] = parseInt(event.target.value);
+        answers['question'+question_number] = parseInt(event.target.value);
         console.log(answers);
     }
 }
@@ -30,7 +30,7 @@ function totalScore(){
 
 function getInfoBaseOnScore(){
     if(totalScore() < 2){
-        var score_info = "Você precisa tomar mais cuidado com segurança";
+        var score_info = "Você precisa tomar mais cuidado com segurança.";
     } else if(totalScore() > 1){
         var score_info = "Parabéns! você está bem de segurança!"
     }
