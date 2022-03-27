@@ -3,7 +3,7 @@ body {
 }
 
 #banner {
-    width: 100%;
+    width: 60%;
 }
 
 .principal {
@@ -45,7 +45,7 @@ h2 {
 }
 
 ul {
-   display: inline-block; 
+   display: contents; 
    vertical-align: top;
    width: 40%;
    margin-right: 15%;
