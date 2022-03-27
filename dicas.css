@@ -52,7 +52,7 @@ nav a:hover {
 
 .cards li {
     display: inline-block;
-    width: 40%;
+    width: 20%;
     text-align: center;
     vertical-align: top;
     margin: 1.5%;
@@ -103,7 +103,7 @@ footer {
 }
 
 .logo-audit-footer {
-    width: 7%;
+    width: 5%;
 }
 
 .copyright {
