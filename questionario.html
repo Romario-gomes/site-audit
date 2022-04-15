@@ -6,13 +6,12 @@
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="dicas.css">
-        <link rel="stylesheet" href="questoes.css">
     </head>
     
     <body>
         <header>
             <div class="menu">
-                <h1><img class="logo-audit" src="imagem/audit.png"></h1>
+                <img class="logo-audit" src="imagem/audit.png">
                 <nav>
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -23,43 +22,86 @@
                 </nav>
             </div>
         </header>
-        <div class="container">
-            <div class="row">
-                <div class="two-thirds column">
-                    <h2>Questionário de Conformidade</h2>
-
-                    <div id="progress_bar"></div>
-                    <form class="questions-box">
-
-                        <div id="question-1">
-                            <h2>Questão 1</h2>
-                                <h3>Você faz treinamento de concientização em sua empresa?</h3>
-                                    <input id="question-1-answer-a" type="radio" name="favelang" value=1>Sim<br>
-                                    <input id="question-1-answer-b" type="radio" name="favelang" value=0>Não<br>
-                                    <div id="submit1" class="button">Enviar resposta</div>
-                                <div class="clearfix"></div>
-                        </div>
-
-                        <div id="question-2">
-                            <h2>Questão 2</h2>
-                                <h3>Você tem politícas de segurança da informação em sua empresa?</h3>
-                                    <input id="question-1-answer-a" type="radio" name="favelang" value=1>Sim<br>
-                                    <input id="question-1-answer-b" type="radio" name="favelang" value=0>Não<br>
-                                    <div id="submit2" class="button">Enviar resposta</div>
-                                <div class="clearfix"></div>
-                        </div>
-
-                        <div id="question-3">
-                            <h2>Obrigado(a) por responder a pesquisa!</h2>
-                            <h3>Seu score de segurança é: </h3>
-                            <h1 id="printtotalscore"></h1>
-                            <p id="printscoreinfo"></p>
-                        </div>
-                        
-                    </form>
-                </div>  
-            </div>
-        </div>
+        <main>
+            <h1>Questionários de conformidade</h1>
+            <h2>Responda ao questionário para saber qual seu nível de adequação com a norma e seus respectivos controles.</h2>
+            <ul class="cards">
+                <li>
+                    <h2>Políticas de segurança da informação</h2>
+                    <img class="card" src="imagem/iso.png">
+                    <a href="questionario-politicas.html">Responder</a>
+                </li>
+                <li>
+                    <h2>Organização da segurança da informação</h2>
+                    <img class="card" src="imagem/conformidade.png">
+                    <p class="descricao">  </p>
+                    <a href="questionario-politicas.html">Responder</a>
+                </li>
+                <li>
+                    <h2>Segurança em recursos humanos</h2>
+                    <img class="card" src="imagem/protecao.png">
+                    <a href="questionario-politicas.html">Responder</a>
+                </li>
+                <li>
+                    <h2>Gestão de ativos</h2>
+                    <img class="card" src="imagem/auditoria.png">
+                    <a href="questionario-politicas.html">Responder</a>
+                </li>
+                <li>
+                    <h2>Controle de acesso</h2>
+                    <img class="card" src="imagem/auditoria.png">
+                    <a href="questionario-politicas.html">Responder</a>
+                </li>
+                <li>
+                    <h2>Criptografia</h2>
+                    <img class="card" src="imagem/auditoria.png">
+                    
+                    <a href="questionario-politicas.html">Responder</a>
+                </li>
+                <li>
+                    <h2>Segurança física e do ambiente</h2>
+                    <img class="card" src="imagem/auditoria.png">
+                    <a href="questionario-politicas.html">Responder</a>
+                </li>
+                <li>
+                    <h2>Segurança nas operações</h2>
+                    <img class="card" src="imagem/auditoria.png">
+                    <a href="questionario-politicas.html">Responder</a>
+                </li>
+                <li>
+                    <h2>Segurança nas comunicações</h2>
+                    <img class="card" src="imagem/auditoria.png">
+                    
+                    <a href="questionario-politicas.html">Responder</a>
+                </li>
+                <li>
+                    <h2>Aquisição, desenvolvimento e manutenção de sistemas</h2>
+                    <img class="card" src="imagem/auditoria.png">
+                    
+                    <a href="questionario-politicas.html">Responder</a>
+                </li>
+                <li>
+                    <h2>Relacionamento na cadeia de suprimento</h2>
+                    <img class="card" src="imagem/auditoria.png">
+                    <a href="questionario-politicas.html">Responder</a>
+                </li>
+                <li>
+                    <h2>Gestão de incidentes de segurança da informação</h2>
+                    <img class="card" src="imagem/auditoria.png">
+                    <a href="questionario-politicas.html">Responder</a>
+                </li>
+                <li>
+                    <h2>Aspectos da seguraça da informação da gestão da continuidade do negócio</h2>
+                    <img class="card" src="imagem/auditoria.png">
+                    <a href="questionario-politicas.html">Responder</a>
+                </li>
+                <li>
+                    <h2>Conformidade</h2>
+                    <img class="card" src="imagem/auditoria.png">
+                    <a href="questionario-politicas.html">Responder</a>
+                </li>
+            </ul>
+        </main>
 
         <footer>
             <img class="logo-audit-footer" src="imagem/audit.png">

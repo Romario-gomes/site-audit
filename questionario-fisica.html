@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">  
+        <title>Questionário</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="dicas.css">
+        <link rel="stylesheet" href="questoes.css">
+    </head>
+    
+    <body>
+        <header>
+            <div class="menu">
+                <img class="logo-audit" src="imagem/audit.png">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="questionario.html">Questionário</a></li>
+                        <li><a href="dicas.html">Dicas de segurança</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="two-thirds column">
+                    <h2>Questionário de Conformidade</h2>
+
+                    <div id="progress_bar"></div>
+                    <form class="questions-box">
+
+                        <div id="question-1">
+                            <h2>Questão 1</h2>
+                                <h3>Você faz treinamento de concientização em sua empresa?</h3>
+                                    <input id="question-1-answer-a" type="radio" name="favelang" value=1>Sim<br>
+                                    <input id="question-1-answer-b" type="radio" name="favelang" value=0>Não<br>
+                                    <div id="submit1" class="button">Enviar resposta</div>
+                                <div class="clearfix"></div>
+                        </div>
+
+                        <div id="question-2">
+                            <h2>Questão 2</h2>
+                                <h3>Você tem politícas de segurança da informação em sua empresa?</h3>
+                                    <input id="question-1-answer-a" type="radio" name="favelang" value=1>Sim<br>
+                                    <input id="question-1-answer-b" type="radio" name="favelang" value=0>Não<br>
+                                    <div id="submit2" class="button">Enviar resposta</div>
+                                <div class="clearfix"></div>
+                        </div>
+
+                        <div id="question-3">
+                            <h2>Obrigado(a) por responder a pesquisa!</h2>
+                            <h3>Seu score de segurança é: </h3>
+                            <h1 id="printtotalscore"></h1>
+                            <p id="printscoreinfo"></p>
+                        </div>
+                        
+                    </form>
+                </div>  
+            </div>
+        </div>
+
+        <footer>
+            <img class="logo-audit-footer" src="imagem/audit.png">
+            <p class="copyright">&copy; Copyright AuditSeg - 2022</p>
+        </footer>
+        <script src="scripts.js"></script>
+    </body>
+</html>
