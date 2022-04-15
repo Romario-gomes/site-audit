@@ -54,17 +54,32 @@
                             <h3>Seu score de segurança é: </h3>
                             <h1 id="printtotalscore"></h1>
                             <p id="printscoreinfo"></p>
+                            <p>
+                                <input type="button" value="Baixar" onclick="funcao_pdf()">
+                            </p>
                         </div>
-                        
                     </form>
                 </div>  
             </div>
         </div>
-
         <footer>
             <img class="logo-audit-footer" src="../imagem/audit.png">
             <p class="copyright">&copy; Copyright AuditSeg - 2022</p>
         </footer>
         <script src="../scripts.js"></script>
     </body>
+    <script>
+        function funcao_pdf() {
+            var pegar_dados = document.getElementById('question-3').innerHTML
+
+            var janela = window.open('','','widrh=800,height=600');
+            janela.document.write('<html><head>');
+            janela.document.write('<title>PDF</title></head>');
+            janela.document.write('<body>');
+            janela.document.write(pegar_dados);
+            janela.document.write('</body></html>');
+            janela.document.close();
+            janela.print();
+        }
+    </script>
 </html>
