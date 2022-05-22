@@ -3,107 +3,185 @@
     <head>
         <meta charset="UTF-8">  
         <title>Questionário</title>
-        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="dicas.css">
+        
     </head>
     
     <body>
-        <header>
-            <div class="menu">
-                <img class="logo-audit" src="imagem/audit.png">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="questionario.html">Questionário</a></li>
-                        <li><a href="dicas.html">Dicas de segurança</a></li>
-                        <li><a href="contato.html">Contato</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <main>
-            <h1>Questionários de conformidade</h1>
-            <h2>Responda ao questionário para saber qual seu nível de adequação com a norma e seus respectivos controles.</h2>
-            <ul class="cards">
-                <li>
-                    <h2>Políticas de segurança da informação</h2>
-                    <img class="card" src="imagem/iso.png">
-                    <a href="questionarios/questionario-politicas.html">Responder</a>
-                </li>
-                <li>
-                    <h2>Organização da segurança da informação</h2>
-                    <img class="card" src="imagem/conformidade.png">
-                    <p class="descricao">  </p>
-                    <a href="questionarios/questionario-organizacao.html">Responder</a>
-                </li>
-                <li>
-                    <h2>Segurança em recursos humanos</h2>
-                    <img class="card" src="imagem/protecao.png">
-                    <a href="questionarios/questionario-rh.html">Responder</a>
-                </li>
-                <li>
-                    <h2>Gestão de ativos</h2>
-                    <img class="card" src="imagem/auditoria.png">
-                    <a href="questionarios/questionario-gestao.html">Responder</a>
-                </li>
-                <li>
-                    <h2>Controle de acesso</h2>
-                    <img class="card" src="imagem/auditoria.png">
-                    <a href="questionarios/questionario-controle.html">Responder</a>
-                </li>
-                <li>
-                    <h2>Criptografia</h2>
-                    <img class="card" src="imagem/auditoria.png">
-                    <a href="questionarios/questionario-criptografia.html">Responder</a>
-                </li>
-                <li>
-                    <h2>Segurança física e do ambiente</h2>
-                    <img class="card" src="imagem/auditoria.png">
-                    <a href="questionarios/questionario-fisica.html">Responder</a>
-                </li>
-                <li>
-                    <h2>Segurança nas operações</h2>
-                    <img class="card" src="imagem/auditoria.png">
-                    <a href="questionarios/questionario-operacoes.html">Responder</a>
-                </li>
-                <li>
-                    <h2>Segurança nas comunicações</h2>
-                    <img class="card" src="imagem/auditoria.png">
-                    <a href="questionarios/questionario-comunicacoes.html">Responder</a>
-                </li>
-                <li>
-                    <h2>Aquisição, desenvolvimento e manutenção de sistemas</h2>
-                    <img class="card" src="imagem/auditoria.png">
-                    <a href="questionarios/questionario-desenvolvimento.html">Responder</a>
-                </li>
-                <li>
-                    <h2>Relacionamento na cadeia de suprimento</h2>
-                    <img class="card" src="imagem/auditoria.png">
-                    <a href="questionarios/questionario-relacionamento.html">Responder</a>
-                </li>
-                <li>
-                    <h2>Gestão de incidentes de segurança da informação</h2>
-                    <img class="card" src="imagem/auditoria.png">
-                    <a href="questionarios/questionario-incidentes.html">Responder</a>
-                </li>
-                <li>
-                    <h2>Aspectos da seguraça da informação da gestão da continuidade do negócio</h2>
-                    <img class="card" src="imagem/auditoria.png">
-                    <a href="questionarios/questionario-pcn.html">Responder</a>
-                </li>
-                <li>
-                    <h2>Conformidade</h2>
-                    <img class="card" src="imagem/auditoria.png">
-                    <a href="questionarios/questionario-conformidade.html">Responder</a>
-                </li>
-            </ul>
-        </main>
+        <div class="d-flex flex-column flex-md-row align-items-center p-4 px-md-4 mb-0 bg-white border-bottom shadow-sm">
+            <h5 class="my-0 mr-md-auto font-weight-normal">Site auditoria</h5>
+           
+            <nav class="my-2 my-md-0 mr-md-3">
+              <a href="index.html" class="p-2 text-dark">Home</a>
+              <a href="questionario.html" class="p-2 text-dark">Questionário</a>
+              <a href="dicas.html" class="p-2 text-dark">Dicas de segurança</a>
+              <a href="contato.html" class="p-2 text-dark">Contato</a>
+            </nav>
+          </div>
 
-        <footer>
-            <img class="logo-audit-footer" src="imagem/audit.png">
-            <p class="copyright">&copy; Copyright AuditSeg - 2022</p>
+          <div class="container">
+            <div class="jumbotron p-4 mt-3 p-md-5 text-white rounded bg-dark">
+                <div class="col-md-6 px-0">
+                  <h1 class="display-4 font-italic">Title of a longer featured blog post</h1>
+                  <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+                  <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+                </div>
+            </div>
+
+             <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+        
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+        
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+        
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+        
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+        
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+        
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+        
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+        
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+        
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                          
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            
+        </div> 
+        <footer class="text-center">
+            <p>&copy; Copyright AuditSeg - 2022</p>
         </footer>
-        <script src="scripts.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
     </body>
 </html>
