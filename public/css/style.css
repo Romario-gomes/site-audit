@@ -1,6 +1,8 @@
 body {
-    min-height: 100vh;
     background-color: blueviolet;
+}
+.justify-footer{
+    min-height: 85vh;
 }
 
 .footer {
