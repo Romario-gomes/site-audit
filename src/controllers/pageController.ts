@@ -19,6 +19,6 @@ export const questionario = (req: Request, res: Response) => {
   res.render('pages/questionario');
 }
 
-export const questionario1 = (req: Request, res: Response) => {
-  res.render('pages/questionario1');
+export const questionariotest = (req: Request, res: Response) => {
+  res.render('pages/questionariotest');
 }
