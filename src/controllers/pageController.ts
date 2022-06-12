@@ -6,7 +6,6 @@ export const home = (req: Request, res: Response) => {
 
 export const dicas = (req: Request, res: Response) => {
   res.render('pages/dicas');
-  
 }
 
 export const contato = (req: Request, res: Response) => {
@@ -18,7 +17,8 @@ export const contato = (req: Request, res: Response) => {
 
 export const questionario = (req: Request, res: Response) => {
   res.render('pages/questionario');
-  
+}
 
-  
+export const questionario1 = (req: Request, res: Response) => {
+  res.render('pages/questionario1');
 }
