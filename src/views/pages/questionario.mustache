@@ -2,11 +2,40 @@
 
 <div class="container justify-footer">
   <div class="starter-template text-center mt-3">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+        <h1>Responda o questionário</h1>   
       </div>
 
   <form action="/search"class="mt-5 mb-3 bg-light p-5" method="POST">
+<div class="form-group">
+  <h5> Foram definidos perímetros para proteção de áreas que contenham informações e ativos associados?  </h5>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
+      <label class="form-check-label" for="exampleRadios1">
+        Sim
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios2" value="0">
+      <label class="form-check-label" for="exampleRadios2">
+       Não
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios3" value="0">
+      <label class="form-check-label" for="exampleRadios3">
+        Não Aplicável
+      </label>
+    </div>
+
+    <div class="form-group">
+    <label for="exampleFormControlFile1">Anexar evidência</label>
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+    </div>
+  </div>
+
+
+
+{{! asdasdasdasdasd }}
   <div class="form-group">
   <h5> A empresa possui uma Política de Segurança da Informação(PSI) definida formalmente? </h5>
     <div class="form-check">
@@ -31,11 +60,11 @@
     <div class="form-group">
     <label for="exampleFormControlFile1">Anexar evidência</label>
     <input type="file" class="form-control-file" id="exampleFormControlFile1">
-  </div>
+    </div>
   </div>
 
   <div class="form-group">
-  <h5> A PSI foi aprovada pela direção da empresa? </h5>
+  <h5> Há controles de entrada para áreas seguras?  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios4" value="1">
       <label class="form-check-label" for="exampleRadios4">
@@ -63,7 +92,7 @@
 
 
   <div class="form-group">
-  <h5> Qual a data da publicação da PSI? </h5>
+  <h5> Como é feito o monitoramento dos pontos de acesso?  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
       <label class="form-check-label" for="exampleRadios1">
@@ -90,7 +119,7 @@
   </div>
 
   <div class="form-group">
-  <h5> Como e quando a PSI foi divulgada para funcionários e partes externas relevantes? </h5>
+  <h5> Existe um mapa de instalações chave?  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
       <label class="form-check-label" for="exampleRadios1">
@@ -117,7 +146,7 @@
   </div>
 
   <div class="form-group">
-  <h5> Existe uma política de controle de acesso? </h5>
+  <h5> Quem tem permissão de acesso a estas instalações?  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
       <label class="form-check-label" for="exampleRadios1">
@@ -144,7 +173,7 @@
   </div>
 
   <div class="form-group">
-  <h5> Existe uma lista dos requisitos de segurança relativos à controle de acesso? </h5>
+  <h5> Como é feito o monitoramento de segurança física?  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
       <label class="form-check-label" for="exampleRadios1">
@@ -173,7 +202,7 @@
   
 
   <div class="form-group">
-  <h5> Existe uma política para uso criptográficos e para a proteção da informação?  </h5>
+  <h5> Há uma avaliação de riscos que contemple ameaças físicas e ambientais?  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
       <label class="form-check-label" for="exampleRadios1">
@@ -200,7 +229,7 @@
   </div>
 
   <div class="form-group">
-  <h5> Existe uma política sobre o uso, proteção e ciclo de vida das chaves criptográficas? </h5>
+  <h5> Existem controles que visem mitigar essas ameaças? </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
       <label class="form-check-label" for="exampleRadios1">
@@ -227,7 +256,7 @@
   </div>
 
   <div class="form-group">
-  <h5> Os procedimentos de operação são documentados? </h5>
+  <h5> São realizados processos de conscientização sobre o trabalho em áreas seguras?  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
       <label class="form-check-label" for="exampleRadios1">
@@ -254,7 +283,7 @@
   </div>
 
   <div class="form-group">
-  <h5>Essa documentação é disponibilizada a todos os usuários?  </h5>
+  <h5>Como é feito o isolamento das áreas seguras?   </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
       <label class="form-check-label" for="exampleRadios1">
@@ -281,7 +310,7 @@
   </div>
 
   <div class="form-group">
-  <h5> Existe uma política dos controles de segurança de rede? </h5>
+  <h5> Foram definidas regras de mesa e/ou tela limpa?  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
       <label class="form-check-label" for="exampleRadios1">
@@ -308,7 +337,7 @@
   </div>
 
   <div class="form-group">
-  <h5> Existe um documento dos serviços de rede, tanto para serviços de rede providos internamente e para terceirizados? 
+  <h5> Houve comunicação dessas regras para colaboradores?  
  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
@@ -336,7 +365,7 @@
   </div>
 
   <div class="form-group">
-  <h5> Existe um software de gerenciamento de serviço de rede? 
+  <h5> Como aconteceu a implantação dessas regras? 
  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
@@ -364,7 +393,7 @@
   </div>
 
   <div class="form-group">
-  <h5> Existem políticas dos serviços de rede? </h5>
+  <h5> Os equipamentos estão dispostos de forma a garantir sua segurança e proteção?  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
       <label class="form-check-label" for="exampleRadios1">
@@ -391,7 +420,7 @@
   </div>
 
   <div class="form-group">
-  <h5> Existe uma lista dos serviços que devem estar contidos em contrato?  </h5>
+  <h5> Existem diretrizes que preservem esse estado de segurança e proteção?   </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
       <label class="form-check-label" for="exampleRadios1">
@@ -418,7 +447,7 @@
   </div>
 
   <div class="form-group">
-  <h5> Existe documentação da segregação da rede? 
+  <h5>Como é feito o monitoramento desses equipamentos? 
  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
@@ -447,7 +476,7 @@
 
 
    <div class="form-group">
-  <h5> Existe um software de gerenciamento de rede?
+  <h5> Qual a abordagem com os ativos que estão fora das dependências da organização? 
  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
@@ -475,7 +504,7 @@
   </div>
 
    <div class="form-group">
-  <h5> Existe documentação da configuração da rede? 
+  <h5> Como foi o processo de liberação dos ativos para fora da organização?  
  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
@@ -503,7 +532,7 @@
   </div>
 
    <div class="form-group">
-  <h5> Existe uma política para transferência de arquivos?
+  <h5> É realizado o gerenciamento das mídias de armazenamento? 
  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
@@ -531,7 +560,7 @@
   </div>
 
    <div class="form-group">
-  <h5> Existe treinamento para os funcionários?
+  <h5> Quais os critérios utilizados na remoção das mídias? 
  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
@@ -559,7 +588,7 @@
   </div>
 
    <div class="form-group">
-  <h5> Existe um documento com os procedimentos passo a passo para a transferência de arquivos?
+  <h5> Como é feita a proteção das mídias que contém dados sensíveis e/ou confidenciais? 
  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
@@ -587,7 +616,7 @@
   </div>
 
    <div class="form-group">
-  <h5> Existe uma política para transferência de arquivos?
+  <h5>Como é feita a comunicação em caso de falha ou interrupção nos serviços de infraestrutura? 
  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
@@ -643,7 +672,7 @@
   </div>
 
    <div class="form-group">
-  <h5> A empresa pssui documentação assinada por e-mail ou ata de reunião para comprovação que tal procedimento é de conhecimento dos funcionários?
+  <h5> Qual o intervalo de avaliação, inspeção e/ou testes destes serviços? 
  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
@@ -671,7 +700,7 @@
   </div>
 
    <div class="form-group">
-  <h5> Existe uma política com trativa para mensagens eletrônicas?
+  <h5> Os serviços de infraestrutura estão mapeados? 
  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
@@ -699,7 +728,7 @@
   </div>
 
    <div class="form-group">
-  <h5>  A empresa coleta logs do software de monitoramento? 
+  <h5> Existe uma planta atualizada do cabeamento estruturado? 
  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
@@ -727,7 +756,7 @@
   </div>
 
   <div class="form-group">
-  <h5> Existe uma política de confidencialidade e não divulgação?
+  <h5> A infraestrutura do cabeamento está documentada? 
  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
@@ -755,7 +784,7 @@
   </div>
 
   <div class="form-group">
-  <h5>  A empresa possui documentação assinada por e-mail ou ata de reunião para comprovação que tal procedimento é de conhecimento dos funcionários? 
+  <h5> Existe um programa de manutenção de equipamentos?  
  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
@@ -783,7 +812,7 @@
   </div>
 
   <div class="form-group">
-  <h5>  Existe documentação dos requisitos de segurança da informação?
+  <h5> Como são registradas as falhas e manutenções destas? 
  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
@@ -811,7 +840,7 @@
   </div>
 
   <div class="form-group">
-  <h5>A empresa coleta logs de eventos? 
+  <h5>Qual o procedimento em caso de manutenção em ambiente externo? 
  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
@@ -840,7 +869,7 @@
 
 
   <div class="form-group">
-  <h5>Existe uma política para modificações não autorizadas?
+  <h5>Existe uma lista de profissionais que realizam as manutenções? 
  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
@@ -868,7 +897,7 @@
   </div>
 
   <div class="form-group">
-  <h5> Existe documentação dos procedimentos?
+  <h5> Existe um procedimento para reutilização ou descarte seguro de equipamentos? 
  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
@@ -896,7 +925,7 @@
   </div>
 
   <div class="form-group">
-  <h5>   A empresa coleta logs de controle de acesso?
+  <h5> Como é feita a decisão de descarte de equipamentos? 
  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
@@ -924,7 +953,7 @@
   </div>
 
   <div class="form-group">
-  <h5>A empresa coleta logs do sistema e aplicativos de serviços? 
+  <h5>É realizado um mapeamento das informações da mídia descartada?  
  </h5>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="question[]" id="exampleRadios1" value="1">
@@ -2120,7 +2149,7 @@
   </div>
   </div>
 
-   <div class="form-group">
+  {{!  <div class="form-group">
   <h5>  Como é a abordagem da organização com os dispositivos endpoint do usuário? 
  </h5>
     <div class="form-check">
@@ -5438,169 +5467,15 @@
     <label for="exampleFormControlFile1">Anexar evidência</label>
     <input type="file" class="form-control-file" id="exampleFormControlFile1">
   </div>
-    </div>
+    </div> }}
 
     
 
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
 
 
-            {{! <div class="jumbotron p-4 mt-3 p-md-5 text-white rounded bg-dark">
-                <div class="col-md-6 px-0">
-                  <h1 class="display-4 font-italic">Title of a longer featured blog post</h1>
-                  <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
-                  <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
-                </div>
-            </div>
 
-             <div class="row">
-                <div class="col-md-4">
-                  <div class="card mb-4 shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-        
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card mb-4 shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-        
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card mb-4 shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-        
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-        
-                <div class="col-md-4">
-                  <div class="card mb-4 shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-        
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card mb-4 shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-        
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card mb-4 shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-        
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-        
-                <div class="col-md-4">
-                  <div class="card mb-4 shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-        
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card mb-4 shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-        
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card mb-4 shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-        
-                    <div class="card-body">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>  }}
             
         </div> 
     {{>partials/footer }}

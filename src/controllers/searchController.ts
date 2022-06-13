@@ -12,18 +12,15 @@ export const search = (req: Request, res: Response) => {
   question.map((quest: any) => {
     if(quest === "1"){
       cont++;
-      console.log("Contador:", cont);
     }
   })
 
-  console.log(question);
 
 
 
   const percent = ((cont*100)/total).toFixed(1);
 
   res.render('pages/resultado', {
-    cont,
     total,
     percent,
   });
